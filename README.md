@@ -8,7 +8,8 @@ The challenge is to build a newsletter sign-up form with a success message using
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Screenshot](./Screenshots/Newsletter-Preview.png)
+![Thanks Page](./Screenshots/Thanks-Page.png)
 
 ### Links
 
