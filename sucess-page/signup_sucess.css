@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+    max-width: 300px;
+    max-height: 100vh;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: var(--White);
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+.container h1, .container p {
+    color: var(--Dark-Slate-Grey);
+}
+
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.container p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.container button {
+    border: none;
+    color: var(--White);
+    background: var(--Dark-Slate-Grey);
+    padding: 15px 90px;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.container button:active {
+    background: linear-gradient(90deg, rgba(255,82,123,1) 0%, rgba(255,106,58,1) 100%);
+    box-shadow: 0px 8px 15px rgba(255, 106, 58, 0.4);
+}
+
+#email {
+    font-weight: bolder;
+}
+
